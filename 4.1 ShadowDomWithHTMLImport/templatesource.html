@@ -1,0 +1,38 @@
+
+
+<template id="template">
+    <style>
+        .mouseover{
+            border-style: solid;
+            border-width: 1px;
+
+        }
+
+        .mouseout {
+            border-style: none;
+        }
+
+        .background{
+            background-color: azure ;
+        }
+    </style>
+    <div is="my-element" class="background">
+        <h1>Web Components</h1>
+        <img src="http://webcomponents.org/img/logo.svg">
+        <br/>
+        <content></content>
+    </div>
+</template>
+
+<!--<script type="text/javascript">-->
+    <!--document.addEventListener('DOMContentLoaded', function()-->
+    <!--{-->
+        <!--//This code will produce an error-->
+        <!--document.getElementById('template').addEventListener('load',-->
+                <!--function() {-->
+                    <!--console.log('We have imported the HTML');-->
+                <!--});-->
+    <!--});-->
+<!--</script>-->
+
+<script type="text/javascript" src="myElement.js"></script>

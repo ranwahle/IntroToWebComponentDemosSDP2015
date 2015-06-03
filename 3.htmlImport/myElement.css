@@ -1,0 +1,9 @@
+.mouseover{
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.mouseout {
+    border-style: none;
+}
